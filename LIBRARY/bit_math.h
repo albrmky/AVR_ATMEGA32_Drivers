@@ -10,7 +10,7 @@
 
 #define SET_BYTE(reg, value) 	( reg = value			)
 
-#define INS_FIELD(reg,mask,start,value) (reg = (  ( reg & ~(mask<<start)) + (value + start) ) )
+#define INS_FIELD(reg,mask,start,value) (reg = (  ( reg & ~(mask<<start)) + (value << start) ) )
 
 #define CONC_BIT(b7,b6,b5,b4,b3,b2,b1,b0) CONC_HELP(b7,b6,b5,b4,b3,b2,b1,b0)
 #define CONC_HELP(b7,b6,b5,b4,b3,b2,b1,b0) 0b##b7##b6##b5##b4##b3##b2##b1##b0
