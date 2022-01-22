@@ -5,12 +5,12 @@
  *      Author: noureldeen albrmky
  */
 
-#include "../Inc/LIBRARY/standard_types.h"
-#include "../Inc/LIBRARY/bit_math.h"
+#include "../Include/LIBRARY/standard_types.h"
+#include "../Include/LIBRARY/bit_math.h"
 
-#include "../Inc/MCAL/DIO/DIO_interface.h"
-#include "../Inc/MCAL/DIO/DIO_private.h"
-#include "../Inc/MCAL/DIO/DIO_configuration.h"
+#include "../Include/MCAL/DIO/DIO_interface.h"
+#include "../Include/MCAL/DIO/DIO_private.h"
+#include "../Include/MCAL/DIO/DIO_configuration.h"
 
 
 /****************************************************/
