@@ -186,14 +186,12 @@ void HLCD_voidDisplayNumber(s32 copy_s32Number)
 		HLCD_voidSendData('-');
 		copy_s32Number *= -1;
 	}
-	
+	//cascade numbers in reverse order
 	if (copy_s32Number == 0)
 	{
 		HLCD_voidSendData('0');
 		return;
 	}
-	
-	//cascade numbers in reverse order
 	while(copy_s32Number != 0)
 	{
 		temp = temp*10 + copy_s32Number%10;

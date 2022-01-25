@@ -45,7 +45,7 @@ u8 MDIO_u8GetPinValue(u8 copy_u8PortID, u8 copy_u8Pin);
 void MDIO_voidSetPortDir(u8 copy_u8PortID, u8 copy_u8u8Direction);
 void MDIO_voidSetPortValue(u8 copy_u8PortID, u8 copy_u8u8Direction);
 u8	 MDIO_u8GetPortValue(u8 copy_u8PortID);
-void MDIO_voidTogglePinValue(u8 copy_u8PortID, u8 copy_u8Pin);
+
 
 
 #endif /* INC_MCAL_DIO_DIO_INTERFACE_H_ */

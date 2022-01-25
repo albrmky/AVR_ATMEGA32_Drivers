@@ -279,9 +279,6 @@ else
 #endif
 }
 
-
-
-
 /******************************************************/
 /* read PIN register to get the input value of the pin
  * in case the pin is output PIN register will contain
@@ -496,9 +493,4 @@ else
 
 	return value;
 
-}
-
-void MDIO_voidTogglePinValue(u8 copy_u8PortID, u8 copy_u8Pin)
-{
-	MDIO_voidSetPinValue(copy_u8PortID,copy_u8Pin, !(MDIO_u8GetPinValue(copy_u8PortID,copy_u8Pin)));
 }
