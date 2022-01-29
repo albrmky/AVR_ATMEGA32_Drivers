@@ -279,9 +279,6 @@ else
 #endif
 }
 
-
-
-
 /******************************************************/
 /* read PIN register to get the input value of the pin
  * in case the pin is output PIN register will contain
@@ -503,4 +500,3 @@ void MDIO_voidTogglePinValue(u8 copy_u8PortID, u8 copy_u8Pin)
 	volatile u8* reg = (volatile u8*) (0x32 + (3 - copy_u8PortID) * 3);
 	TOG_BIT(*reg, copy_u8Pin);
 }
-
